@@ -6,7 +6,7 @@ import json
 def main():
   ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
   ser.flush()
-  url = 'http://192.168.32.15:8000/api/insert_data'
+  url = 'http://18.176.192.40/api/insert_data'
 
   while True:
     time.sleep(1)
